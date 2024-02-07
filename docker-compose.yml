@@ -9,7 +9,7 @@ services:
       ACCEPT_EULA: Y
       SA_PASSWORD: P@ssw0rd1!
     networks:
-      - "store"
+    - "store"
     volumes:
       - "mssqlsystem:/var/opt/mssql"
       - "mssqluser:/var/opt/mssqlserver"
@@ -21,7 +21,7 @@ services:
       - "8000:8080"
       - "7061:8080"
     networks:
-      - "store"
+    - "store"
     restart: always
 networks:
   store:

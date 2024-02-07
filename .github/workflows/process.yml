@@ -23,4 +23,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: andriydocker24/online_store_api andriydocker24 / online_store_api
+          tags: andriydocker24/online_store_api

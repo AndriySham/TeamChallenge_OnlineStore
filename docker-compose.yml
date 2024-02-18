@@ -12,7 +12,7 @@ services:
     - "store"
     volumes:
       - "mssqlsystem:/var/opt/mssql"
-      - "mssqluser:/var/opt/mssqlserver"
+      - "mssqluser:/var/opt/sqlserver"
     restart: always
   store_api:
     container_name: store_api

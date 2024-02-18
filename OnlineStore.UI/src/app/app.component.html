@@ -1,0 +1,18 @@
+<h1>Hello world!</h1>
+
+<div *ngFor="let test of tests">
+    {{test.id}}
+    {{test.testData}}
+</div>
+
+<h1>Hello</h1>
+<div>
+    @for(test of tests; track test){
+        {{test.id}}
+        {{test.testData}}
+    }
+</div>
+
+<button (click)="onButtonClick()">Click</button>
+
+<router-outlet />

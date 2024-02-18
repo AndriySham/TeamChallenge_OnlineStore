@@ -1,3 +1,7 @@
+.git
+.vscode
+.vs
+OnlineStore.UI
 **/.classpath
 **/.dockerignore
 **/.env

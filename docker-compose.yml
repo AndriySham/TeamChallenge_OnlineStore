@@ -16,12 +16,20 @@ services:
     restart: always
   store_api:
     container_name: store_api
-    image: andriydocker24/online_store_api
+    image: andriydocker24/online_store_api_2.0
     ports:
       - "8000:8080"
       - "7061:8080"
     networks:
     - "store"
+    restart: always
+  store_ui:
+    container_name: store_ui
+    image: onlinestore_ui
+    ports:
+      - "9000:8080"
+    networks:
+      - "store"
     restart: always
 networks:
   store:

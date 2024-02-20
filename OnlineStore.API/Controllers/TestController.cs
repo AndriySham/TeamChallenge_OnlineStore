@@ -22,6 +22,7 @@ namespace OnlineStore.API.Controllers
             return Ok(testData);
         }
 
+        // Test submodule
         //[HttpGet("{testId:int}")]
         //public async Task<ActionResult<Test>> GetTestByIdAsync(int testId)
         //{
